@@ -12,7 +12,6 @@ function test_docker_image {
         -c HTTPBinNewmanTest.json.postman_collection \
         -e HTTPBinNewmanTestEnv.json.postman_environment \
         --exitCode;
-
 }
 
 if [ -z "$1" ]; then
