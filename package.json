@@ -1,0 +1,11 @@
+{
+  "name": "newman-travis-qlpd",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "./scripts/test.sh",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QLPD/test-automation.git"
+  }
+}
